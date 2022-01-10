@@ -1,0 +1,98 @@
+.checkout-form section {
+  display: flex;
+}
+
+input,
+select {
+  display: block;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+#name,
+#email,
+#address {
+  width: 50%;
+}
+
+input[type=text]:focus {
+  background-color: #eee;
+}
+
+input[type="email"]:focus {
+  background-color: #eee;
+}
+
+input[type="number"]:focus {
+  background-color: #eee;
+}
+
+label,
+legend {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.address {
+  margin-right: 20px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+fieldset input {
+  display: inline-block;
+  height: 13px;
+}
+
+fieldset label {
+  font-size: 1rem;
+  color: black;
+  font-weight: normal;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+.dog-checkout {
+  display: flex;
+  width: 30%;
+}
+
+h3 {
+  margin: 0;
+}
+
+.dog-checkout img {
+  height: 80px;
+  width: 50%;
+  min-width: 40px;
+  margin-right: 20px;
+}
+
+.dog-cost {
+  width: 100%;
+}
+
+.dog-checkout p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+form .button {
+  width: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+form .button p {
+  padding: 10px;
+}
+
+form p {
+  margin: 0;
+}

@@ -1,0 +1,25 @@
+.blog {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.blog img {
+  height: 230px;
+  /* margin-bottom: 60px; */
+}
+
+section {
+  width: 68%;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+footer {
+  clear: both;
+  margin-top: 0;
+}
