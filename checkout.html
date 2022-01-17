@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Adoptadog Checkout</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/checkout-styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/adoptadog-logo.svg" alt="adoptadog logo">
+        <h1>Seattle's premiere dog adoption agency</h1>
+      </div>
+      <div class="checkout">
+        <div class="cart">
+          <img src="images/cart-icon.svg" alt="cart icon">
+          <p>$1234.56</p>
+        </div>
+        <a href="#">
+          <div class="button">
+            <p>Checkout</p>
+          </div>
+        </a>
+      </div>
+    </header>
+    <nav>
+      <span><a href="index.html">Home</a></span>
+      <span>/</span>
+      <span><a href="dogs.html">Dogs</a></span>
+      <span>/</span>
+      <span><a href="blog.html">Blog</a></span>
+    </nav>
+    <main>
+      <h1>Checkout</h1>
+      <form class="checkout-form" method="post">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="client-name" required>
+
+        <label for="email">Email address</label>
+        <input id="email" type="email" name="email" required>
+
+        <label for="address">Street Address</label>
+        <input id="address" type="text" name="address" required>
+
+        <section>
+          <div class="address">
+            <label for="city">City</label>
+            <input id="city" type="text" name="city" required>
+          </div>
+
+          <div class="address">
+            <label for="state">State</label>
+            <select id="state" name="state" required>
+              <option disabled selected value></option>
+              <option label="CA">CA</option>
+              <option label="TX">TX</option>
+              <option label="WA">WA</option>
+            </select>
+          </div>
+
+          <div class="address">
+            <label for="zip">Zip Code</label>
+            <input id="zip" type="number" name="zip" required>
+          </div>
+        </section>
+
+        <fieldset>
+          <legend>First time adopter?</legend>
+          <label>
+            <input type="radio" name="first-time" value="yes">
+            <span class="radio"></span>Yes
+          </label>
+          <label>
+            <input type="radio" name="first-time" value="no">
+            <span class="radio"></span>No
+          </label>
+        </fieldset>
+
+        <label for="pickup">Pickup Location</label>
+        <select id="pickup" name="pickup" required>
+          <option disabled selected value></option>
+          <option label="Downtown"></option>
+        </select>
+
+        <h2>Dogs Adopted</h2>
+        <section class="dogs-adopted">
+          <div class="dog-checkout">
+            <img src="images/lucas-checkout.jpg" alt="lucas the dog">
+            <div class="dog-cost">
+              <h3>Lucas</h3>
+              <p><span class="cost">Cost to adopt:</span> $123.45</p>
+            </div>
+          </div>
+          <div class="dog-checkout">
+            <img src="images/duffy-checkout.jpg" alt="duffy the dog">
+            <div class="dog-cost">
+              <h3>Duffy</h3>
+              <p><span class="cost">Cost to adopt:</span> $123.45</p>
+            </div>
+          </div>
+        </section>
+
+        <h2>Total Adoption Cost</h2>
+        <p>$1234.56</p>
+
+        <!-- <input class="button" type="submit" name="submit" value="Submit"> -->
+        <a href="#">
+          <div class="button">
+            <p>Submit</p>
+          </div>
+        </a>
+      </form>
+      </main>
+    <footer>
+      <img src="images/adoptadog-logo.svg" alt="adoptadog logo">
+      <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex<br />
+      esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+      <nav>
+        <span><a href="#">Home</a></span>
+        <span>/</span>
+        <span><a href="#">Dogs</a></span>
+        <span>/</span>
+        <span><a href="#">Contact</a></span>
+      </nav>
+      <p>&copy; 2018 Adoptadog, LLC&emsp;|&emsp;Seattle, WA</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url("../images/header-image.jpg");
+  background-size: cover;
+  padding: 40px 85px 120px 85px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 150px;
+  width: 60%;
+}
+
+.logo h1 {
+  margin: 0;
+  color: #12AD2B;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.cart {
+  display: flex;
+  color: #fff;
+}
+
+.checkout img {
+  /* display: inline-block; */
+  height: 50px;
+  width: 30%;
+  padding-right: 5px;
+}
+
+.checkout p {
+  /* display: inline-block; */
+}
+
+.checkout .button,
+.dog-card .button,
+form .button {
+  background-color: #12AD2B;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.checkout .button p {
+  padding: 5px;
+  margin: 0;
+}
+
+.checkout .button p,
+.dog-card .button p {
+  font-size: 0.8rem;
+}
+
+nav {
+  background-color: #eee;
+  padding: 20px;
+  padding-left: 150px;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+nav a,
+nav a:visited,
+nav span,
+.more-dogs-btn {
+  font-weight: 900;
+  padding: 3px;
+  font-family: sans-serif;
+}
+
+nav a,
+nav a:visited,
+nav span,
+main h1,
+main h2,
+.more-dogs-btn,
+label,
+legend {
+  color: #123456;
+}
+
+main {
+  /* margin: 40px 100px 100px 100px; */
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.adopt-a-dog {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-flow: row wrap;
+}
+
+.adopt-a-dog img {
+  height: 280px;
+  min-width: 20%;
+  padding-right: 40px;
+}
+
+.adopt-a-dog h1 {
+  font-size: 1.5rem;
+}
+
+.adopt-a-dog p {
+ font-size: 1rem;
+}
+
+.adopt-a-dog section {
+  width: 50%;
+}
+
+.dogs {
+  margin-bottom: 40px;
+}
+
+.dogs section {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+.dog-card {
+  width: 20%;
+  min-width: 120px;
+  border: 1px solid silver;
+  /* padding: 10px; */
+}
+
+.dog-info {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.dog-card img {
+  height: 110px;
+  width: 100%;
+  min-width: 30px;
+}
+
+.dog-card h2 {
+  font-size: 1.2rem;
+}
+
+.dog-card p {
+  font-size: 1rem;
+}
+
+.dog-card .button {
+  margin: 15px 30px 15px 30px;
+}
+
+.dog-card .button p {
+  padding: 10px;
+}
+
+.more-dogs-btn {
+  width: 20%;
+  background-color: #E5E4E2;
+  margin: auto;
+  text-align: center;
+}
+
+footer {
+  background-color: #1b447f;
+  padding: 30px 400px 30px 400px;
+  margin-top: 70px;
+  color: white;
+  text-align: center;
+
+}
+
+footer img {
+  height: 80px;
+  /* width: 100%; */
+}
+
+footer nav {
+  background-color: #1b447f;
+  font-size: 1rem;
+  padding-left: 0;
+}
+
+footer nav span,
+footer nav a,
+footer nav a:visited {
+  color: white;
+}
