@@ -12,6 +12,7 @@ select {
 #name,
 #email,
 #address {
+  margin-top: 5px;
   width: 50%;
 }
 
@@ -31,6 +32,7 @@ label,
 legend {
   font-size: 1.2rem;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .address {
@@ -52,6 +54,7 @@ fieldset label {
   font-size: 1rem;
   color: black;
   font-weight: normal;
+  font-family: sans-serif;
 }
 
 h2 {
@@ -68,8 +71,8 @@ h3 {
 }
 
 .dog-checkout img {
-  height: 80px;
-  width: 50%;
+  /* height: 80px; */
+  /* width: 50%; */
   min-width: 40px;
   margin-right: 5%;
 }
