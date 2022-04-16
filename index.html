@@ -32,153 +32,158 @@
       <span><a href="blog.html">Blog</a></span>
     </nav>
     <main>
-      <article class="adopt-a-dog">
-        <img src="images/home-intro.jpg" alt="man hugging a dog">
-        <section>
-          <h1>Adopt a Dog</h1>
-          <p>Iduciendisite quo magnatem iuntum quid quaest ea am,
-          tenderumet adis dolenem quidustrum fuga. Faceaquae estioria
-          derum recuptatur, cum volore, undipsa doloreium hillupta aut
-          es ut alitatuscit ommossum haritatur arum qui officae videbiti
-          corporeium faccull oribus es quidignis ipietus explam sus
-          am aut amet ant fugiatum, utem non reptat ad magnienecto
-          volorent fugia nonsedi gendand itatquos as magnimpor aut
-          molor autatia ad est officimus accae et omnia cus, od qui ate</p>
-        </section>
+      <article class="dogs-preview">
+        <article class="adopt-a-dog">
+          <img src="images/home-intro.jpg" alt="man hugging a dog">
+          <section>
+            <h1>Adopt a Dog</h1>
+            <p>Iduciendisite quo magnatem iuntum quid quaest ea am,
+            tenderumet adis dolenem quidustrum fuga. Faceaquae estioria
+            derum recuptatur, cum volore, undipsa doloreium hillupta aut
+            es ut alitatuscit ommossum haritatur arum qui officae videbiti
+            corporeium faccull oribus es quidignis ipietus explam sus
+            am aut amet ant fugiatum, utem non reptat ad magnienecto
+            volorent fugia nonsedi gendand itatquos as magnimpor aut
+            molor autatia ad est officimus accae et omnia cus, od qui ate</p>
+          </section>
+        </article>
+        <article class="dogs">
+          <section>
+            <div class="dog-card-index">
+              <img onclick="dogProfile('Murphy', 123.45)" src="images/murphy-card.jpg" alt="murphy the dog">
+              <div class="dog-info">
+                <h2>Murphy</h2>
+                <p><span class="cost">Cost to adopt:</span> $123.45</p>
+                <p>Corrum volorit iandae
+                nimaxim cum restia volor
+                reicid ut et etur sunt arum
+                rendae pla endis re ea erum,
+                qui doluptae</p>
+              </div>
+              <div onclick="addCost(123.45)" class="button">
+                <p>Adopt</p>
+              </div>
+            </div>
+            <div class="dog-card-index">
+              <img onclick="dogProfile('Poppy', 123.45)" src="images/poppy-card.jpg" alt="poppy the dog">
+              <div class="dog-info">
+                <h2>Poppy</h2>
+                <p><span class="cost">Cost to adopt:</span> $123.45</p>
+                <p>Corrum volorit iandae
+                nimaxim cum restia volor
+                reicid ut et etur sunt arum
+                rendae pla endis re ea erum,
+                qui doluptae</p>
+              </div>
+              <div onclick="addCost(123.45)" class="button">
+                <p>Adopt</p>
+              </div>
+            </div>
+            <div class="dog-card-index">
+              <img onclick="dogProfile('Jack', 123.45)" src="images/jack-card.jpg" alt="jack the dog">
+              <div class="dog-info">
+                <h2>Jack</h2>
+                <p><span class="cost">Cost to adopt:</span> $123.45</p>
+                <p>Corrum volorit iandae
+                nimaxim cum restia volor
+                reicid ut et etur sunt arum
+                rendae pla endis re ea erum,
+                qui doluptae</p>
+              </div>
+              <div onclick="addCost(123.45)" class="button">
+                <p>Adopt</p>
+              </div>
+            </div>
+          <!-- </section>
+        </article>
+        <article class="dogs">
+          <section> -->
+            <div class="dog-card-index">
+              <img onclick="dogProfile('Duffy', 123.45)" src="images/duffy-card.jpg" alt="duffy the dog">
+              <div class="dog-info">
+                <h2>Duffy</h2>
+                <p><span class="cost">Cost to adopt:</span> $123.45</p>
+                <p>Corrum volorit iandae
+                nimaxim cum restia volor
+                reicid ut et etur sunt arum
+                rendae pla endis re ea erum,
+                qui doluptae</p>
+              </div>
+              <div onclick="addCost(123.45)" class="button">
+              <p>Adopt</p>
+              </div>          
+            </div>
+            <div class="dog-card-index">
+              <img onclick="dogProfile('Lucas', 123.45)" src="images/lucas-card.jpg" alt="lucas the dog">
+              <div class="dog-info">
+                <h2>Lucas</h2>
+                <p><span class="cost">Cost to adopt:</span> $123.45</p>
+                <p>Corrum volorit iandae
+                nimaxim cum restia volor
+                reicid ut et etur sunt arum
+                rendae pla endis re ea erum,
+                qui doluptae</p>
+              </div>
+              <div onclick="addCost(123.45)" class="button">
+              <p>Adopt</p>
+              </div>
+            </div>
+            <div class="dog-card-index">
+              <img onclick="dogProfile('Jake', 123.45)" src="images/jake-card.jpg" alt="jake the dog">
+              <div class="dog-info">
+                <h2>Jake</h2>
+                <p><span class="cost">Cost to adopt:</span> $123.45</p>
+                <p>Corrum volorit iandae
+                nimaxim cum restia volor
+                reicid ut et etur sunt arum
+                rendae pla endis re ea erum,
+                qui doluptae</p>
+              </div>
+              <div onclick="addCost(123.45)" class="button">
+                <p>Adopt</p>
+              </div>
+            </div>
+          </section>
+        </article>
+        <a href="dogs.html">
+          <div class="more-dogs-btn">
+            <p>See More Dogs</p>
+          </div>
+        </a>
       </article>
-      <article class="dogs">
-        <section>
-          <div class="dog-card">
-            <img onclick="dogProfile('Murphy', 123.45)" src="images/murphy-card.jpg" alt="murphy the dog">
-            <div class="dog-info">
-              <h2>Murphy</h2>
-              <p><span class="cost">Cost to adopt:</span> $123.45</p>
-              <p>Corrum volorit iandae
-              nimaxim cum restia volor
-              reicid ut et etur sunt arum
-              rendae pla endis re ea erum,
-              qui doluptae</p>
-            </div>
-            <div onclick="addCost(123.45)" class="button">
-            <p>Adopt</p>
-            </div>
-          </div>
-          <div class="dog-card">
-            <img onclick="dogProfile('Poppy', 123.45)" src="images/poppy-card.jpg" alt="poppy the dog">
-            <div class="dog-info">
-              <h2>Poppy</h2>
-              <p><span class="cost">Cost to adopt:</span> $123.45</p>
-              <p>Corrum volorit iandae
-              nimaxim cum restia volor
-              reicid ut et etur sunt arum
-              rendae pla endis re ea erum,
-              qui doluptae</p>
-            </div>
-            <div onclick="addCost(123.45)" class="button">
-            <p>Adopt</p>
-            </div>
-          </div>
-          <div class="dog-card">
-            <img onclick="dogProfile('Jack', 123.45)" src="images/jack-card.jpg" alt="jack the dog">
-            <div class="dog-info">
-              <h2>Jack</h2>
-              <p><span class="cost">Cost to adopt:</span> $123.45</p>
-              <p>Corrum volorit iandae
-              nimaxim cum restia volor
-              reicid ut et etur sunt arum
-              rendae pla endis re ea erum,
-              qui doluptae</p>
-            </div>
-            <div onclick="addCost(123.45)" class="button">
-            <p>Adopt</p>
-            </div>
-          </div>
-          <div class="dog-card">
-            <img onclick="dogProfile('Duffy', 123.45)" src="images/duffy-card.jpg" alt="duffy the dog">
-            <div class="dog-info">
-              <h2>Duffy</h2>
-              <p><span class="cost">Cost to adopt:</span> $123.45</p>
-              <p>Corrum volorit iandae
-              nimaxim cum restia volor
-              reicid ut et etur sunt arum
-              rendae pla endis re ea erum,
-              qui doluptae</p>
-            </div>
-            <div onclick="addCost(123.45)" class="button">
-            <p>Adopt</p>
-            </div>          
-          </div>
-        </section>
+      <article class="blog-preview">
+        <h1>From Our Blog</h1>
+        <article class="blog">
+          <img src="images/blog-1.jpg" alt="woman sitting with a dog">
+          <section>
+            <h2>Traveling With Your Dog</h2>
+            <p>Iciustiam, et ad quiaes cum que
+              excea sinciendi qui offic temquas
+              doluptios dolupta tiandebis nem ut.</p>
+            <a href="blog.html">Read more >></a>
+          </section>
+        </article>
+        <article class="blog">
+          <img src="images/blog-2.jpg" alt="four dogs on leashes sitting">
+          <section>
+            <h2>How To Walk Multiple Dogs</h2>
+            <p>Iciustiam, et ad quiaes cum que
+              excea sinciendi qui offic temquas
+              doluptios dolupta tiandebis nem ut.</p>
+            <a href="blog.html">Read more >></a>
+          </section>
+        </article>
+        <article class="blog">
+          <img src="images/blog-3.jpg" alt="person playing with dog at sundown">
+          <section>
+            <h2>Teach Your Dog To Fetch</h2>
+            <p>Iciustiam, et ad quiaes cum que
+              excea sinciendi qui offic temquas
+              doluptios dolupta tiandebis nem ut.</p>
+            <a href="blog.html">Read more >></a>
+          </section>
+        </article>
       </article>
-      <article class="dogs">
-        <section>
-          <div class="dog-card">
-            <img onclick="dogProfile('Lucas', 123.45)" src="images/lucas-card.jpg" alt="lucas the dog">
-            <div class="dog-info">
-              <h2>Lucas</h2>
-              <p><span class="cost">Cost to adopt:</span> $123.45</p>
-              <p>Corrum volorit iandae
-              nimaxim cum restia volor
-              reicid ut et etur sunt arum
-              rendae pla endis re ea erum,
-              qui doluptae</p>
-            </div>
-            <div onclick="addCost(123.45)" class="button">
-            <p>Adopt</p>
-            </div>
-          </div>
-          <div class="dog-card">
-            <img onclick="dogProfile('Jake', 123.45)" src="images/jake-card.jpg" alt="jake the dog">
-            <div class="dog-info">
-              <h2>Jake</h2>
-              <p><span class="cost">Cost to adopt:</span> $123.45</p>
-              <p>Corrum volorit iandae
-              nimaxim cum restia volor
-              reicid ut et etur sunt arum
-              rendae pla endis re ea erum,
-              qui doluptae</p>
-            </div>
-            <div onclick="addCost(123.45)" class="button">
-            <p>Adopt</p>
-            </div>
-          </div>
-          <div class="dog-card">
-            <img onclick="dogProfile('Angus', 123.45)" src="images/angus-card.jpg" alt="angus the dog">
-            <div class="dog-info">
-              <h2>Angus</h2>
-              <p><span class="cost">Cost to adopt:</span> $123.45</p>
-              <p>Corrum volorit iandae
-              nimaxim cum restia volor
-              reicid ut et etur sunt arum
-              rendae pla endis re ea erum,
-              qui doluptae</p>
-            </div>
-            <div onclick="addCost(123.45)" class="button">
-            <p>Adopt</p>
-            </div>
-          </div>
-          <div class="dog-card">
-            <img onclick="dogProfile('Violet', 123.45)" src="images/violet-card.jpg" alt="violet the dog">
-            <div class="dog-info">
-              <h2>Violet</h2>
-              <p><span class="cost">Cost to adopt:</span> $123.45</p>
-              <p>Corrum volorit iandae
-              nimaxim cum restia volor
-              reicid ut et etur sunt arum
-              rendae pla endis re ea erum,
-              qui doluptae</p>
-            </div>
-            <div onclick="addCost(123.45)" class="button">
-            <p>Adopt</p>
-            </div>
-          </div>
-        </section>
-      </article>
-      <a href="dogs.html">
-        <div class="more-dogs-btn">
-          <p>See More Dogs</p>
-        </div>
-      </a>
     </main>
     <footer>
       <img src="images/adoptadog-logo.svg" alt="adoptadog logo">
