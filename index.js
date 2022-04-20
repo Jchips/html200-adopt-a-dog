@@ -7,3 +7,4 @@ function addCost(cost) {
     total += cost;
     alert("total cost: $" + total);
 }
+

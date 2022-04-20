@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Adopt a Dog</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -15,7 +16,7 @@
       <div class="checkout">
         <div class="cart">
           <img src="images/cart-icon.svg" alt="cart icon">
-          <p>$1234.56</p>
+          <p id="checkout-total">$1234.56</p>
         </div>
         <a href="checkout.html">
           <div class="button">
@@ -50,7 +51,7 @@
         <article class="dogs">
           <section>
             <div class="dog-card-index">
-              <img onclick="dogProfile('Murphy', 123.45)" src="images/murphy-card.jpg" alt="murphy the dog">
+              <img class="card-img" onclick="dogProfile('Murphy', 123.45)" src="images/murphy-card.jpg" alt="murphy the dog">
               <div class="dog-info">
                 <h2>Murphy</h2>
                 <p><span class="cost">Cost to adopt:</span> $123.45</p>
@@ -65,7 +66,7 @@
               </div>
             </div>
             <div class="dog-card-index">
-              <img onclick="dogProfile('Poppy', 123.45)" src="images/poppy-card.jpg" alt="poppy the dog">
+              <img class="card-img" onclick="dogProfile('Poppy', 123.45)" src="images/poppy-card.jpg" alt="poppy the dog">
               <div class="dog-info">
                 <h2>Poppy</h2>
                 <p><span class="cost">Cost to adopt:</span> $123.45</p>
@@ -80,7 +81,7 @@
               </div>
             </div>
             <div class="dog-card-index">
-              <img onclick="dogProfile('Jack', 123.45)" src="images/jack-card.jpg" alt="jack the dog">
+              <img class="card-img" onclick="dogProfile('Jack', 123.45)" src="images/jack-card.jpg" alt="jack the dog">
               <div class="dog-info">
                 <h2>Jack</h2>
                 <p><span class="cost">Cost to adopt:</span> $123.45</p>
@@ -99,7 +100,7 @@
         <article class="dogs">
           <section> -->
             <div class="dog-card-index">
-              <img onclick="dogProfile('Duffy', 123.45)" src="images/duffy-card.jpg" alt="duffy the dog">
+              <img class="card-img" onclick="dogProfile('Duffy', 123.45)" src="images/duffy-card.jpg" alt="duffy the dog">
               <div class="dog-info">
                 <h2>Duffy</h2>
                 <p><span class="cost">Cost to adopt:</span> $123.45</p>
@@ -114,7 +115,7 @@
               </div>          
             </div>
             <div class="dog-card-index">
-              <img onclick="dogProfile('Lucas', 123.45)" src="images/lucas-card.jpg" alt="lucas the dog">
+              <img class="card-img" onclick="dogProfile('Lucas', 123.45)" src="images/lucas-card.jpg" alt="lucas the dog">
               <div class="dog-info">
                 <h2>Lucas</h2>
                 <p><span class="cost">Cost to adopt:</span> $123.45</p>
@@ -129,7 +130,7 @@
               </div>
             </div>
             <div class="dog-card-index">
-              <img onclick="dogProfile('Jake', 123.45)" src="images/jake-card.jpg" alt="jake the dog">
+              <img class="card-img" onclick="dogProfile('Jake', 123.45)" src="images/jake-card.jpg" alt="jake the dog">
               <div class="dog-info">
                 <h2>Jake</h2>
                 <p><span class="cost">Cost to adopt:</span> $123.45</p>
@@ -198,6 +199,7 @@
       </nav>
       <p>&copy; 2018 Adoptadog, LLC&emsp;|&emsp;Seattle, WA</p>
     </footer>
+    <script src="main.js"></script>
     <script src="index.js" charset="utf-8"></script>
   </body>
 </html>

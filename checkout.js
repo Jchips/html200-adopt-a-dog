@@ -1,22 +1,11 @@
-const submitButton = document.getElementById('submit');
-submitButton.addEventListener("click", function() {
+$("#submit").click(function() {
   alert("Thank you. The form information has been received");
-
-  let clientName = document.getElementById('name');
-  let clientEmail = document.getElementById('email');
-  let clientAddress = document.getElementById('address');
-  let clientCity = document.getElementById('city');
-  let clientState = document.getElementById('state');
-  let clientZip = document.getElementById('zip');
-  let firstTime = document.querySelector('input[name="first-time"]:checked').value;
-  let pickup = document.getElementById('pickup');
-
-  console.log("Buyer's name: " + clientName.value);
-  console.log("Email: " + clientEmail.value);
-  console.log("Address: " + clientAddress.value);
-  console.log("City: " + clientCity.value);
-  console.log('State: ' + clientState.value);
-  console.log("Zip: " + clientZip.value);
-  console.log("First time adopter?: " + firstTime);
-  console.log("Pickup location: " + pickup.value);
-});
+  console.log("Buyer's name: " + $("#name").val())
+  console.log("Email: " + $("#email").val())
+  console.log("Address: " + $("#address").val())
+  console.log("City: " + $("#city").val())
+  console.log("State: " + $("#state").val())
+  console.log("Zip: " + $("#zip").val())
+  console.log("First time adopter? " + $("input[name='first-time']:checked").val())
+  console.log("Pickup location: " + $("#pickup").val())
+})
