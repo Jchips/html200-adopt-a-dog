@@ -53,9 +53,9 @@
             <label for="state">State</label>
             <select id="state" name="state" required>
               <option disabled selected value>&nbsp;</option>
-              <option label="CA"></option>
-              <option label="TX"></option>
-              <option label="WA"></option>
+              <option value="CA">CA</option>
+              <option value="TX">TX</option>
+              <option value="WA">WA</option>
             </select>
           </div>
 
@@ -80,7 +80,7 @@
         <label for="pickup">Pickup Location</label>
         <select id="pickup" name="pickup" required>
           <option disabled selected value>&nbsp;</option>
-          <option label="Downtown"></option>
+          <option value="downtown">Downtown</option>
         </select>
 
         <h2>Dogs Adopted</h2>
@@ -106,7 +106,7 @@
 
         <!-- <input class="button" type="submit" name="submit" value="Submit"> -->
         <a href="#">
-          <div class="button">
+          <div id="submit" class="button">
             <p>Submit</p>
           </div>
         </a>
@@ -125,5 +125,6 @@
       </nav>
       <p>&copy; 2018 Adoptadog, LLC&emsp;|&emsp;Seattle, WA</p>
     </footer>
+    <script src="checkout.js"></script>
   </body>
 </html>
